@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A76816146DF6C161C6927C27 /* Pods_AJBottomSheet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290B519F638B8AE3324C2FE6 /* Pods_AJBottomSheet_Tests.framework */; };
+		E161AEA120CFE49000D58681 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161AEA020CFE49000D58681 /* ListViewController.swift */; };
 		E414EA8CA983D2B12DA4078D /* Pods_AJBottomSheet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931869E6AAD47BA544544F6B /* Pods_AJBottomSheet_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		221E58B5F60C7BAC29FE819B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		221E58B5F60C7BAC29FE819B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		290B519F638B8AE3324C2FE6 /* Pods_AJBottomSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJBottomSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB9BDFB5C417953942452C4 /* Pods-AJBottomSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJBottomSheet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJBottomSheet_Example/Pods-AJBottomSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AJBottomSheet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJBottomSheet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +42,13 @@
 		607FACE51AFB9204008FA782 /* AJBottomSheet_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJBottomSheet_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		776F14CEF3B76B97803DB4B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		776F14CEF3B76B97803DB4B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		79E4B9A8E848D483678C2993 /* Pods-AJBottomSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJBottomSheet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJBottomSheet_Tests/Pods-AJBottomSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7A25CE2BBF643FBB49F04191 /* Pods-AJBottomSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJBottomSheet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJBottomSheet_Tests/Pods-AJBottomSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		931869E6AAD47BA544544F6B /* Pods_AJBottomSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJBottomSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51D81F8F8B40A98EF57E9C9 /* Pods-AJBottomSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJBottomSheet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJBottomSheet_Example/Pods-AJBottomSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EAFD1AD15E0533F26A948159 /* AJBottomSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AJBottomSheet.podspec; path = ../AJBottomSheet.podspec; sourceTree = "<group>"; };
+		E161AEA020CFE49000D58681 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EAFD1AD15E0533F26A948159 /* AJBottomSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AJBottomSheet.podspec; path = ../AJBottomSheet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				E161AEA020CFE49000D58681 /* ListViewController.swift */,
 			);
 			name = "Example for AJBottomSheet";
 			path = AJBottomSheet;
@@ -324,6 +327,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E161AEA120CFE49000D58681 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

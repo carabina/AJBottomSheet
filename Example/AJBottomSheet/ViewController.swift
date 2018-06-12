@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import AJBottomSheet
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +22,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showListAction(_ sender: Any) {
+        let vc: ListViewController = self.storyboard?.instantiateViewController(withIdentifier: "ListViewController") as! ListViewController
+        
+        AJBottomSheetViewController.show(viewController: vc, height: 300, source: self)
+    }
 }
 

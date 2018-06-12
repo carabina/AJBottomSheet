@@ -1,0 +1,16 @@
+PODS:
+  - AJBottomSheet (0.1.0)
+
+DEPENDENCIES:
+  - AJBottomSheet (from `../`)
+
+EXTERNAL SOURCES:
+  AJBottomSheet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AJBottomSheet: d53c0f51c62944efdb47cffa84cfed226ca651f9
+
+PODFILE CHECKSUM: cd7861d7cbc957ae1650cfe9043ceb8ccaed1aa1
+
+COCOAPODS: 1.5.2
