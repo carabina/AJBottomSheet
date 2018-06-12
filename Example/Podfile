@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AJBottomSheet_Example' do
+  pod 'AJBottomSheet', :path => '../'
+
+  target 'AJBottomSheet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
