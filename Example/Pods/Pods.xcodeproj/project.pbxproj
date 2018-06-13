@@ -7,89 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03763641E7682365F252967963E249BA /* Pods-AJBottomSheet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B24DE5BD0631CB81386083183F1EF70 /* Pods-AJBottomSheet_Example-dummy.m */; };
-		2B1875D0C9A925C793F9E4A891D97E32 /* AJBottomSheet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E603CF580ADE08D6781041A253CD0C4E /* AJBottomSheet-dummy.m */; };
-		45D4E1641709B489607AA8B0C855F7A0 /* Pods-AJBottomSheet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31320D3691153ABA4ACEEA2F19BCD2EC /* Pods-AJBottomSheet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52FA75DAA7B89E8B9F2C030988689770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		975269B4206F8E3EAAF05F74301B3431 /* AJBottomSheet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A371FCF472549EF92DC359CABEB9F8EF /* AJBottomSheet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D9E36FFD6FF882D7B8846FADEFC9A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		000431EA056DD7D3F3A24A268100142C /* AJBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F444C7C6891F4A7740264485ADE1F5 /* AJBottomSheetViewController.swift */; };
+		03763641E7682365F252967963E249BA /* Pods-AJBottomSheet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95FBF097DE336805FDEAF483244136 /* Pods-AJBottomSheet_Example-dummy.m */; };
+		205DF518EB8462B3C86659F3309E5C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC08B602B313F01CE04318E75AB7CC92 /* ViewController.swift */; };
+		39D581C5F554E5D4524BE238BC967821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3A6E8E261AC5447223F690A25E62846E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22CD446E8B7A1AB762ECE34B811320 /* ListViewController.swift */; };
+		A4A523E009813E855426417B4DDDFFE8 /* AJBottomSheet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC01345643E8EF6A014F0CED83FC1BF /* AJBottomSheet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB32DD1E3833438C75A6CE3562AEA0E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		BAF45B841323BD76EA4F4FBAA0D3441A /* Pods-AJBottomSheet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF526BE462636DF678F2D563025CB1B /* Pods-AJBottomSheet_Tests-dummy.m */; };
-		E161AE9C20CFE30400D58681 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161AE9A20CFE30400D58681 /* Animator.swift */; };
-		E161AE9F20CFE3F300D58681 /* AJBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161AE9E20CFE3F300D58681 /* AJBottomSheetViewController.swift */; };
-		FC7B0DE1F2BA219A547A6D7CFB448424 /* Pods-AJBottomSheet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 080FC8485B5026B47C41BA64E9EDD196 /* Pods-AJBottomSheet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC94DD54D81A1A5D2B5D3958DAF9A78 /* AJBottomSheet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A8EF95F1E277E4C75764044313344 /* AJBottomSheet-dummy.m */; };
+		BF921E4F1556DB58C8F3BA3FAD654CDE /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56AB46AFDCA802E56D4864770EAE5E /* Animator.swift */; };
+		DBA07A1DA557F621442DC0673099E4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18ACEB7A15E38106E37AB3785DEC5DE /* AppDelegate.swift */; };
+		FC7B0DE1F2BA219A547A6D7CFB448424 /* Pods-AJBottomSheet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 621F2FE47E819BC5D0233B8CEFEF3D03 /* Pods-AJBottomSheet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4635A5F057DE6CAD42577F7400CE681C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22802DB8066747EC80983AEF29F927BF;
-			remoteInfo = "Pods-AJBottomSheet_Example";
-		};
 		BE6959A8386363DE0CC1850146000596 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B51A89A528E33A620F1B820BF29AA5C0;
+			remoteGlobalIDString = 66E0086D68F3C629AF2F3A25D0D3C2CE;
 			remoteInfo = AJBottomSheet;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0140B663DBDFC728B422359DA8A679FB /* Pods-AJBottomSheet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJBottomSheet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		080FC8485B5026B47C41BA64E9EDD196 /* Pods-AJBottomSheet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJBottomSheet_Example-umbrella.h"; sourceTree = "<group>"; };
-		0C9751D86B26BBCB777E1DD1DBF3EEF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		13C1FCDF7C37ECD956DA96AD1DC80F47 /* AJBottomSheet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AJBottomSheet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1B24DE5BD0631CB81386083183F1EF70 /* Pods-AJBottomSheet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJBottomSheet_Example-dummy.m"; sourceTree = "<group>"; };
-		294DDB4FAEB0E27AE30B6544365D4DB8 /* Pods-AJBottomSheet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJBottomSheet_Tests.modulemap"; sourceTree = "<group>"; };
-		2DA000872A053B5E52C423F463672D2F /* Pods-AJBottomSheet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJBottomSheet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		31320D3691153ABA4ACEEA2F19BCD2EC /* Pods-AJBottomSheet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJBottomSheet_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4A4E6920CE5E7FA2CC4443A2F5F02FB0 /* AJBottomSheet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJBottomSheet-prefix.pch"; sourceTree = "<group>"; };
-		4A511A51A6CBB8B10DE4B303BBB91FD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A63547CD97E238A2945987847574984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50CDBDDD5FB1A59193720B2608433411 /* Pods-AJBottomSheet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJBottomSheet_Example.modulemap"; sourceTree = "<group>"; };
+		0183321A61CFA6DA3BBF1F145D77C65C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC77863FA5DB675BF7E8F2556F6D8BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7B99B347F4DF3A16999C5ABC3FBA3C /* AJBottomSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJBottomSheet.modulemap; sourceTree = "<group>"; };
+		2F56AB46AFDCA802E56D4864770EAE5E /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		32369AA8C187D147CD59C1B337FB101B /* Pods-AJBottomSheet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJBottomSheet_Example-frameworks.sh"; sourceTree = "<group>"; };
+		33BFEACF111D05E157E0A785B8EB160B /* Pods-AJBottomSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJBottomSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3BEFA01F056D6814886FB5F79CD75164 /* Pods-AJBottomSheet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJBottomSheet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5AF6306F381F3DD8F556996673E32979 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5B01C4C93F6CDB72736A1EC6A88C2F66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B45F93001ADE49264E6D03928F42A73 /* Pods-AJBottomSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJBottomSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5FB19E6F4CEF7F22740E16027C864C46 /* AJBottomSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AJBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68D27E872C6BC6EE8348EAA4B9A281F8 /* Pods-AJBottomSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJBottomSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		775F0B392222978B89BCF6698876A295 /* Pods-AJBottomSheet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJBottomSheet_Example-resources.sh"; sourceTree = "<group>"; };
-		833BFB65B54D8A378A70F7C82EE6368E /* Pods_AJBottomSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJBottomSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621F2FE47E819BC5D0233B8CEFEF3D03 /* Pods-AJBottomSheet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJBottomSheet_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A22CD446E8B7A1AB762ECE34B811320 /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		92968F41721FF8CA6600FAD0181A3A4A /* Pods-AJBottomSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJBottomSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BE17F2B12FEE5A83622F1AD549A9980 /* Pods-AJBottomSheet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJBottomSheet_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A371FCF472549EF92DC359CABEB9F8EF /* AJBottomSheet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJBottomSheet-umbrella.h"; sourceTree = "<group>"; };
-		AA361EA25AC8D079C23991FFD9906573 /* Pods_AJBottomSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJBottomSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFFE89B393CDB4049BC9C8AE9F587277 /* Pods-AJBottomSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJBottomSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B76662EA3FB9AEF2C16C70A70EC0C7DF /* Pods-AJBottomSheet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJBottomSheet_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BC5328226FC45877DA1436C5C368BDEF /* Pods-AJBottomSheet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJBottomSheet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C4BA163519CEBD528A49B6419424559D /* Pods-AJBottomSheet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJBottomSheet_Tests-resources.sh"; sourceTree = "<group>"; };
-		DD69FEDB1DBF2D55E044CF5F736965E5 /* Pods-AJBottomSheet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJBottomSheet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E161AE9A20CFE30400D58681 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = AJBottomSheet/Classes/Animator.swift; sourceTree = "<group>"; };
-		E161AE9E20CFE3F300D58681 /* AJBottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AJBottomSheetViewController.swift; path = AJBottomSheet/Classes/AJBottomSheetViewController.swift; sourceTree = "<group>"; };
-		E603CF580ADE08D6781041A253CD0C4E /* AJBottomSheet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJBottomSheet-dummy.m"; sourceTree = "<group>"; };
-		E9B64212F7F4F8EDC4B102DF09DB6D00 /* AJBottomSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJBottomSheet.modulemap; sourceTree = "<group>"; };
-		EDCF0F33825C0C0E0B932D3E7E5247EB /* Pods-AJBottomSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJBottomSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBB23E99134AF650B09F942C3DF0E5EF /* AJBottomSheet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJBottomSheet.xcconfig; sourceTree = "<group>"; };
-		FCF526BE462636DF678F2D563025CB1B /* Pods-AJBottomSheet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJBottomSheet_Tests-dummy.m"; sourceTree = "<group>"; };
+		95535781F0B33F1ACF14DA9FD5C9ACE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		959E6AF8CAB87F7D832DA0C2EE99F5D4 /* Pods-AJBottomSheet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJBottomSheet_Example-resources.sh"; sourceTree = "<group>"; };
+		AC95FBF097DE336805FDEAF483244136 /* Pods-AJBottomSheet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJBottomSheet_Example-dummy.m"; sourceTree = "<group>"; };
+		AD7A759653EC1C9495A68A393D589235 /* AJBottomSheet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJBottomSheet.xcconfig; sourceTree = "<group>"; };
+		B68A8EF95F1E277E4C75764044313344 /* AJBottomSheet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJBottomSheet-dummy.m"; sourceTree = "<group>"; };
+		B6F444C7C6891F4A7740264485ADE1F5 /* AJBottomSheetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AJBottomSheetViewController.swift; sourceTree = "<group>"; };
+		BB7B118CECDBE2BBF89A3C4F5C9075F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BDC89B5DBE069DA5870F7B35B3C6B263 /* AJBottomSheet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJBottomSheet-prefix.pch"; sourceTree = "<group>"; };
+		BFC01345643E8EF6A014F0CED83FC1BF /* AJBottomSheet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJBottomSheet-umbrella.h"; sourceTree = "<group>"; };
+		C7863DCBD6F8AF1156C948A9033940E2 /* AJBottomSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AJBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD250B75C62969C733160E76094D316A /* Pods-AJBottomSheet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJBottomSheet_Example.modulemap"; sourceTree = "<group>"; };
+		D1CDCE71E6BF0202F4EB17B5C8C3AE01 /* AJBottomSheet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AJBottomSheet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D978B858EC6DBED4CC4ECDD00322503A /* Pods-AJBottomSheet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJBottomSheet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E18ACEB7A15E38106E37AB3785DEC5DE /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC08B602B313F01CE04318E75AB7CC92 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F74D51244C76AC094D473C9D463F3F7B /* Pods_AJBottomSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJBottomSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B174E0167F4B9C65B7C73C2BD433D33 /* Frameworks */ = {
+		96F6733C81F7BA1AB62E489277F1D06D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D9E36FFD6FF882D7B8846FADEFC9A31 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63F768FB033D11D7FC789466D8C56F05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52FA75DAA7B89E8B9F2C030988689770 /* Foundation.framework in Frameworks */,
+				39D581C5F554E5D4524BE238BC967821 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,57 +81,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12BD4A68AD6F2F00F9D85E083D7B0006 /* Targets Support Files */ = {
+		05B3FB17EE699408C1B87D505218B405 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				50E5A79DC90ECE78A37A3CDAB99FFD81 /* Pods-AJBottomSheet_Example */,
-				B7EA895227F48D2965FA779E94CCCD19 /* Pods-AJBottomSheet_Tests */,
+				55375714DA555AC625DB22416DDBF148 /* AJBottomSheet */,
 			);
-			name = "Targets Support Files";
+			path = Example;
 			sourceTree = "<group>";
 		};
-		24842441B39EC6912C43F494418402DF /* AJBottomSheet */ = {
+		143B0C51313656D5FA532379634B83E6 /* AJBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
-				E161AE9E20CFE3F300D58681 /* AJBottomSheetViewController.swift */,
-				E161AE9A20CFE30400D58681 /* Animator.swift */,
-				612C2A93692BFAA0C299222FA89DD92B /* Pod */,
-				4347CC785DD7394760EFCD6A8D7C8F10 /* Support Files */,
+				592E3435B393B91B68E117407A8716A7 /* Classes */,
 			);
-			name = AJBottomSheet;
-			path = ../..;
+			path = AJBottomSheet;
 			sourceTree = "<group>";
 		};
-		4347CC785DD7394760EFCD6A8D7C8F10 /* Support Files */ = {
+		2DD74EA7342A60C314CE8E71F6E32286 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9B64212F7F4F8EDC4B102DF09DB6D00 /* AJBottomSheet.modulemap */,
-				FBB23E99134AF650B09F942C3DF0E5EF /* AJBottomSheet.xcconfig */,
-				E603CF580ADE08D6781041A253CD0C4E /* AJBottomSheet-dummy.m */,
-				4A4E6920CE5E7FA2CC4443A2F5F02FB0 /* AJBottomSheet-prefix.pch */,
-				A371FCF472549EF92DC359CABEB9F8EF /* AJBottomSheet-umbrella.h */,
-				5B01C4C93F6CDB72736A1EC6A88C2F66 /* Info.plist */,
+				0C7B99B347F4DF3A16999C5ABC3FBA3C /* AJBottomSheet.modulemap */,
+				AD7A759653EC1C9495A68A393D589235 /* AJBottomSheet.xcconfig */,
+				B68A8EF95F1E277E4C75764044313344 /* AJBottomSheet-dummy.m */,
+				BDC89B5DBE069DA5870F7B35B3C6B263 /* AJBottomSheet-prefix.pch */,
+				BFC01345643E8EF6A014F0CED83FC1BF /* AJBottomSheet-umbrella.h */,
+				0BC77863FA5DB675BF7E8F2556F6D8BD /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AJBottomSheet";
 			sourceTree = "<group>";
 		};
-		50E5A79DC90ECE78A37A3CDAB99FFD81 /* Pods-AJBottomSheet_Example */ = {
+		40C543173BC153C830C1CD4870F3CF49 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A63547CD97E238A2945987847574984 /* Info.plist */,
-				50CDBDDD5FB1A59193720B2608433411 /* Pods-AJBottomSheet_Example.modulemap */,
-				2DA000872A053B5E52C423F463672D2F /* Pods-AJBottomSheet_Example-acknowledgements.markdown */,
-				BC5328226FC45877DA1436C5C368BDEF /* Pods-AJBottomSheet_Example-acknowledgements.plist */,
-				1B24DE5BD0631CB81386083183F1EF70 /* Pods-AJBottomSheet_Example-dummy.m */,
-				B76662EA3FB9AEF2C16C70A70EC0C7DF /* Pods-AJBottomSheet_Example-frameworks.sh */,
-				775F0B392222978B89BCF6698876A295 /* Pods-AJBottomSheet_Example-resources.sh */,
-				080FC8485B5026B47C41BA64E9EDD196 /* Pods-AJBottomSheet_Example-umbrella.h */,
-				EDCF0F33825C0C0E0B932D3E7E5247EB /* Pods-AJBottomSheet_Example.debug.xcconfig */,
-				5B45F93001ADE49264E6D03928F42A73 /* Pods-AJBottomSheet_Example.release.xcconfig */,
+				C602E28D57937E620E86904CD9D5C291 /* Pods-AJBottomSheet_Example */,
 			);
-			name = "Pods-AJBottomSheet_Example";
-			path = "Target Support Files/Pods-AJBottomSheet_Example";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44E8C819A061C087F4400F2DF2603105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7863DCBD6F8AF1156C948A9033940E2 /* AJBottomSheet.framework */,
+				F74D51244C76AC094D473C9D463F3F7B /* Pods_AJBottomSheet_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55375714DA555AC625DB22416DDBF148 /* AJBottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E18ACEB7A15E38106E37AB3785DEC5DE /* AppDelegate.swift */,
+				8A22CD446E8B7A1AB762ECE34B811320 /* ListViewController.swift */,
+				EC08B602B313F01CE04318E75AB7CC92 /* ViewController.swift */,
+			);
+			path = AJBottomSheet;
+			sourceTree = "<group>";
+		};
+		592E3435B393B91B68E117407A8716A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6F444C7C6891F4A7740264485ADE1F5 /* AJBottomSheetViewController.swift */,
+				2F56AB46AFDCA802E56D4864770EAE5E /* Animator.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -165,51 +155,45 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		612C2A93692BFAA0C299222FA89DD92B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				13C1FCDF7C37ECD956DA96AD1DC80F47 /* AJBottomSheet.podspec */,
-				5AF6306F381F3DD8F556996673E32979 /* LICENSE */,
-				0C9751D86B26BBCB777E1DD1DBF3EEF1 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8E007C2C5B01FA4820AEA9DB1FD199CE /* Development Pods */,
+				85DB011B158E39DB0F776D8920C94258 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FCA2071D084DBA30AAAE0CD66B5D4624 /* Products */,
-				12BD4A68AD6F2F00F9D85E083D7B0006 /* Targets Support Files */,
+				44E8C819A061C087F4400F2DF2603105 /* Products */,
+				40C543173BC153C830C1CD4870F3CF49 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8E007C2C5B01FA4820AEA9DB1FD199CE /* Development Pods */ = {
+		7EBD2D96ED342808450FEDCAE9E89C8B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				24842441B39EC6912C43F494418402DF /* AJBottomSheet */,
+				D1CDCE71E6BF0202F4EB17B5C8C3AE01 /* AJBottomSheet.podspec */,
+				95535781F0B33F1ACF14DA9FD5C9ACE6 /* LICENSE */,
+				BB7B118CECDBE2BBF89A3C4F5C9075F4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		85DB011B158E39DB0F776D8920C94258 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B349A14551506FB2917A5C141E2F0C44 /* AJBottomSheet */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B7EA895227F48D2965FA779E94CCCD19 /* Pods-AJBottomSheet_Tests */ = {
+		B349A14551506FB2917A5C141E2F0C44 /* AJBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
-				4A511A51A6CBB8B10DE4B303BBB91FD8 /* Info.plist */,
-				294DDB4FAEB0E27AE30B6544365D4DB8 /* Pods-AJBottomSheet_Tests.modulemap */,
-				DD69FEDB1DBF2D55E044CF5F736965E5 /* Pods-AJBottomSheet_Tests-acknowledgements.markdown */,
-				0140B663DBDFC728B422359DA8A679FB /* Pods-AJBottomSheet_Tests-acknowledgements.plist */,
-				FCF526BE462636DF678F2D563025CB1B /* Pods-AJBottomSheet_Tests-dummy.m */,
-				9BE17F2B12FEE5A83622F1AD549A9980 /* Pods-AJBottomSheet_Tests-frameworks.sh */,
-				C4BA163519CEBD528A49B6419424559D /* Pods-AJBottomSheet_Tests-resources.sh */,
-				31320D3691153ABA4ACEEA2F19BCD2EC /* Pods-AJBottomSheet_Tests-umbrella.h */,
-				AFFE89B393CDB4049BC9C8AE9F587277 /* Pods-AJBottomSheet_Tests.debug.xcconfig */,
-				68D27E872C6BC6EE8348EAA4B9A281F8 /* Pods-AJBottomSheet_Tests.release.xcconfig */,
+				143B0C51313656D5FA532379634B83E6 /* AJBottomSheet */,
+				05B3FB17EE699408C1B87D505218B405 /* Example */,
+				7EBD2D96ED342808450FEDCAE9E89C8B /* Pod */,
+				2DD74EA7342A60C314CE8E71F6E32286 /* Support Files */,
 			);
-			name = "Pods-AJBottomSheet_Tests";
-			path = "Target Support Files/Pods-AJBottomSheet_Tests";
+			name = AJBottomSheet;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -220,32 +204,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FCA2071D084DBA30AAAE0CD66B5D4624 /* Products */ = {
+		C602E28D57937E620E86904CD9D5C291 /* Pods-AJBottomSheet_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5FB19E6F4CEF7F22740E16027C864C46 /* AJBottomSheet.framework */,
-				833BFB65B54D8A378A70F7C82EE6368E /* Pods_AJBottomSheet_Example.framework */,
-				AA361EA25AC8D079C23991FFD9906573 /* Pods_AJBottomSheet_Tests.framework */,
+				0183321A61CFA6DA3BBF1F145D77C65C /* Info.plist */,
+				CD250B75C62969C733160E76094D316A /* Pods-AJBottomSheet_Example.modulemap */,
+				D978B858EC6DBED4CC4ECDD00322503A /* Pods-AJBottomSheet_Example-acknowledgements.markdown */,
+				3BEFA01F056D6814886FB5F79CD75164 /* Pods-AJBottomSheet_Example-acknowledgements.plist */,
+				AC95FBF097DE336805FDEAF483244136 /* Pods-AJBottomSheet_Example-dummy.m */,
+				32369AA8C187D147CD59C1B337FB101B /* Pods-AJBottomSheet_Example-frameworks.sh */,
+				959E6AF8CAB87F7D832DA0C2EE99F5D4 /* Pods-AJBottomSheet_Example-resources.sh */,
+				621F2FE47E819BC5D0233B8CEFEF3D03 /* Pods-AJBottomSheet_Example-umbrella.h */,
+				92968F41721FF8CA6600FAD0181A3A4A /* Pods-AJBottomSheet_Example.debug.xcconfig */,
+				33BFEACF111D05E157E0A785B8EB160B /* Pods-AJBottomSheet_Example.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-AJBottomSheet_Example";
+			path = "Target Support Files/Pods-AJBottomSheet_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		56DFA918C900AA826D276DDB71A3DA40 /* Headers */ = {
+		DF655143308D478D9DA88A1B42EFA799 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975269B4206F8E3EAAF05F74301B3431 /* AJBottomSheet-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A649E41BA0A8E17516EF61048ED73B0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45D4E1641709B489607AA8B0C855F7A0 /* Pods-AJBottomSheet_Tests-umbrella.h in Headers */,
+				A4A523E009813E855426417B4DDDFFE8 /* AJBottomSheet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,24 +244,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0B12BFDD5ADD58C45647553167F416DD /* Pods-AJBottomSheet_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98B23260B4AC7AE4DE78A0045347E5AE /* Build configuration list for PBXNativeTarget "Pods-AJBottomSheet_Tests" */;
-			buildPhases = (
-				0AB973B64F886C6C4386188FC40F384F /* Sources */,
-				63F768FB033D11D7FC789466D8C56F05 /* Frameworks */,
-				6A649E41BA0A8E17516EF61048ED73B0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E0F7942E10A254C04126199EB53E0F1C /* PBXTargetDependency */,
-			);
-			name = "Pods-AJBottomSheet_Tests";
-			productName = "Pods-AJBottomSheet_Tests";
-			productReference = AA361EA25AC8D079C23991FFD9906573 /* Pods_AJBottomSheet_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		22802DB8066747EC80983AEF29F927BF /* Pods-AJBottomSheet_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4111A3D6F3FFE1916E88D475ADFC444 /* Build configuration list for PBXNativeTarget "Pods-AJBottomSheet_Example" */;
@@ -293,16 +259,16 @@
 			);
 			name = "Pods-AJBottomSheet_Example";
 			productName = "Pods-AJBottomSheet_Example";
-			productReference = 833BFB65B54D8A378A70F7C82EE6368E /* Pods_AJBottomSheet_Example.framework */;
+			productReference = F74D51244C76AC094D473C9D463F3F7B /* Pods_AJBottomSheet_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B51A89A528E33A620F1B820BF29AA5C0 /* AJBottomSheet */ = {
+		66E0086D68F3C629AF2F3A25D0D3C2CE /* AJBottomSheet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B454115055A7A04CA6FF090F4F071EF2 /* Build configuration list for PBXNativeTarget "AJBottomSheet" */;
+			buildConfigurationList = 45B02E952320ECE6BCAB813633EEEBD6 /* Build configuration list for PBXNativeTarget "AJBottomSheet" */;
 			buildPhases = (
-				AF8688653EF25ACCA492EBADD631BA4A /* Sources */,
-				4B174E0167F4B9C65B7C73C2BD433D33 /* Frameworks */,
-				56DFA918C900AA826D276DDB71A3DA40 /* Headers */,
+				833E4179522C79C1810C2B1FA6005FA1 /* Sources */,
+				96F6733C81F7BA1AB62E489277F1D06D /* Frameworks */,
+				DF655143308D478D9DA88A1B42EFA799 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -310,7 +276,7 @@
 			);
 			name = AJBottomSheet;
 			productName = AJBottomSheet;
-			productReference = 5FB19E6F4CEF7F22740E16027C864C46 /* AJBottomSheet.framework */;
+			productReference = C7863DCBD6F8AF1156C948A9033940E2 /* AJBottomSheet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,33 +296,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FCA2071D084DBA30AAAE0CD66B5D4624 /* Products */;
+			productRefGroup = 44E8C819A061C087F4400F2DF2603105 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B51A89A528E33A620F1B820BF29AA5C0 /* AJBottomSheet */,
+				66E0086D68F3C629AF2F3A25D0D3C2CE /* AJBottomSheet */,
 				22802DB8066747EC80983AEF29F927BF /* Pods-AJBottomSheet_Example */,
-				0B12BFDD5ADD58C45647553167F416DD /* Pods-AJBottomSheet_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0AB973B64F886C6C4386188FC40F384F /* Sources */ = {
+		833E4179522C79C1810C2B1FA6005FA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF45B841323BD76EA4F4FBAA0D3441A /* Pods-AJBottomSheet_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF8688653EF25ACCA492EBADD631BA4A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E161AE9C20CFE30400D58681 /* Animator.swift in Sources */,
-				E161AE9F20CFE3F300D58681 /* AJBottomSheetViewController.swift in Sources */,
-				2B1875D0C9A925C793F9E4A891D97E32 /* AJBottomSheet-dummy.m in Sources */,
+				ADC94DD54D81A1A5D2B5D3958DAF9A78 /* AJBottomSheet-dummy.m in Sources */,
+				000431EA056DD7D3F3A24A268100142C /* AJBottomSheetViewController.swift in Sources */,
+				BF921E4F1556DB58C8F3BA3FAD654CDE /* Animator.swift in Sources */,
+				DBA07A1DA557F621442DC0673099E4D5 /* AppDelegate.swift in Sources */,
+				3A6E8E261AC5447223F690A25E62846E /* ListViewController.swift in Sources */,
+				205DF518EB8462B3C86659F3309E5C3C /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,55 +334,15 @@
 		CE6E57B3731528BE23FE96AC04442BB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AJBottomSheet;
-			target = B51A89A528E33A620F1B820BF29AA5C0 /* AJBottomSheet */;
+			target = 66E0086D68F3C629AF2F3A25D0D3C2CE /* AJBottomSheet */;
 			targetProxy = BE6959A8386363DE0CC1850146000596 /* PBXContainerItemProxy */;
-		};
-		E0F7942E10A254C04126199EB53E0F1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AJBottomSheet_Example";
-			target = 22802DB8066747EC80983AEF29F927BF /* Pods-AJBottomSheet_Example */;
-			targetProxy = 4635A5F057DE6CAD42577F7400CE681C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05EBADDFAC47A1EC0D00F0B2286E3694 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68D27E872C6BC6EE8348EAA4B9A281F8 /* Pods-AJBottomSheet_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AJBottomSheet_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AJBottomSheet_Tests/Pods-AJBottomSheet_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		325BC0C0898D9712197F304A0B26F56C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B45F93001ADE49264E6D03928F42A73 /* Pods-AJBottomSheet_Example.release.xcconfig */;
+			baseConfigurationReference = 33BFEACF111D05E157E0A785B8EB160B /* Pods-AJBottomSheet_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -455,9 +375,9 @@
 			};
 			name = Release;
 		};
-		511C7F76DAEAB263702FDC1547D1CA8A /* Release */ = {
+		351569CE6BB94807323EC8F32065B8AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBB23E99134AF650B09F942C3DF0E5EF /* AJBottomSheet.xcconfig */;
+			baseConfigurationReference = AD7A759653EC1C9495A68A393D589235 /* AJBottomSheet.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -471,7 +391,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AJBottomSheet/AJBottomSheet-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AJBottomSheet/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AJBottomSheet/AJBottomSheet.modulemap";
 				PRODUCT_MODULE_NAME = AJBottomSheet;
@@ -480,7 +400,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -490,7 +410,7 @@
 		};
 		636D253989754449133B19BE8B7DC2B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDCF0F33825C0C0E0B932D3E7E5247EB /* Pods-AJBottomSheet_Example.debug.xcconfig */;
+			baseConfigurationReference = 92968F41721FF8CA6600FAD0181A3A4A /* Pods-AJBottomSheet_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -517,38 +437,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		855A2045299A509EB717AB7EDBB2D1CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBB23E99134AF650B09F942C3DF0E5EF /* AJBottomSheet.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AJBottomSheet/AJBottomSheet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AJBottomSheet/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AJBottomSheet/AJBottomSheet.modulemap";
-				PRODUCT_MODULE_NAME = AJBottomSheet;
-				PRODUCT_NAME = AJBottomSheet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -618,39 +506,6 @@
 			};
 			name = Debug;
 		};
-		9FB0E502AB35C5FB14CAF28A7A4D26A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFFE89B393CDB4049BC9C8AE9F587277 /* Pods-AJBottomSheet_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AJBottomSheet_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AJBottomSheet_Tests/Pods-AJBottomSheet_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -709,6 +564,38 @@
 			};
 			name = Release;
 		};
+		F387C38C775AE5B05CCD3A1494A001BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7A759653EC1C9495A68A393D589235 /* AJBottomSheet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AJBottomSheet/AJBottomSheet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJBottomSheet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJBottomSheet/AJBottomSheet.modulemap";
+				PRODUCT_MODULE_NAME = AJBottomSheet;
+				PRODUCT_NAME = AJBottomSheet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -721,20 +608,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98B23260B4AC7AE4DE78A0045347E5AE /* Build configuration list for PBXNativeTarget "Pods-AJBottomSheet_Tests" */ = {
+		45B02E952320ECE6BCAB813633EEEBD6 /* Build configuration list for PBXNativeTarget "AJBottomSheet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FB0E502AB35C5FB14CAF28A7A4D26A0 /* Debug */,
-				05EBADDFAC47A1EC0D00F0B2286E3694 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B454115055A7A04CA6FF090F4F071EF2 /* Build configuration list for PBXNativeTarget "AJBottomSheet" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				855A2045299A509EB717AB7EDBB2D1CA /* Debug */,
-				511C7F76DAEAB263702FDC1547D1CA8A /* Release */,
+				F387C38C775AE5B05CCD3A1494A001BF /* Debug */,
+				351569CE6BB94807323EC8F32065B8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

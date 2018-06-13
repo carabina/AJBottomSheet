@@ -1,7 +1,7 @@
 {
   "name": "AJBottomSheet",
   "version": "0.1.0",
-  "summary": "A short description of AJBottomSheet.",
+  "summary": "Customised view controller to mimic android bottom sheet on iOS.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/alvinjohntandoc/AJBottomSheet",
   "license": {
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "AJBottomSheet/Classes/**/*"
+  "source_files": "**/*.swift",
+  "swift_version": "3.2"
 }
